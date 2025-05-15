@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up - Nnobae Fie</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="picz/logo.png" alt="Nnorbae fie Logo" style="height: 70px; vertical-align: middle;">
+    <h1 style="display: inline-block; margin-left: 1em;">NNORBAE FIE</h1>
+    <p>Farming Smarter, Selling Faster</p>
+    
+    <nav class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="team.html">Team</a>
+      <a href="cart.html" id="cart-link">Cart</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <div class="nav-right">
+        <a href="login.html">Login</a>
+        </div>
+  </nav>
+  </header>
+
+  <div class="auth-container">
+    <h2>Sign Up</h2>
+    <input type="text" id="signup-name" placeholder="Full Name" required>
+    <input type="email" id="signup-email" placeholder="Email" required>
+    <input type="password" id="signup-password" placeholder="Password" required>
+    <button onclick="signup()">Sign Up</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

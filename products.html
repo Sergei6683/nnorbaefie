@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products - NNORBAE FIE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <img src="picz/logo.png" alt="Nnorbae fie Logo" style="height: 70px; vertical-align: middle;">
+    <h1 style="display: inline-block; margin-left: 1em;">NNORBAE FIE</h1>
+    <p>Farming Smarter, Selling Faster</p>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="team.html">Team</a>
+    <a href="cart.html" id="cart-link">Cart</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <div class="nav-right">
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+      </div>
+</nav>
+
+<h2>Our Products</h2>
+<div class="product-list">
+    <div class="product">
+        <img src="picz/maize.jpeg" alt="Maize">
+        <h3>MAIZE</h3>
+        <p>GHS 85</p>
+        <input type="number" min="1" value="1" id="qty-maize">
+        <button onclick="addToCart('Maize', 15, document.getElementById('qty-maize').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/cassava2.jpeg" alt="Cassava">
+        <h3>CASSAVA</h3>
+        <p>GHS 90</p>
+        <input type="number" min="1" value="1" id="qty-cassava">
+        <button onclick="addToCart('Cassava', 20, document.getElementById('qty-cassava').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/potato.jpeg" alt="Potato">
+        <h3>POTATO</h3>
+        <p>GHS 100</p>
+        <input type="number" min="1" value="1" id="qty-potato">
+        <button onclick="addToCart('Potato', 25, document.getElementById('qty-potato').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/cocoa.jpeg" alt="Cocoa">
+        <h3>COCOA</h3>
+        <p>GHS 120</p>
+        <input type="number" min="1" value="1" id="qty-Cocoa">
+        <button onclick="addToCart('Cocoa', 15, document.getElementById('qty-cocoa').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/baanana.jpeg" alt="BANANA">
+        <h3>BANANA</h3>
+        <p>GHS 50</p>
+        <input type="number" min="1" value="1" id="qty-BANANA">
+        <button onclick="addToCart('BANANA', 50, document.getElementById('qty-BANANA').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/melon.jpeg" alt="MELON">
+        <h3>MELON</h3>
+        <p>GHS 105</p>
+        <input type="number" min="1" value="1" id="qty-MELON">
+        <button onclick="addToCart('MELON', 105, document.getElementById('qty-MELON').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/pineapple.jpeg" alt="PINEAPPLE">
+        <h3>PINEAPPLE</h3>
+        <p>GHS 90</p>
+        <input type="number" min="1" value="1" id="qty-PINEAPPLE">
+        <button onclick="addToCart('PINEAPPLE', 90, document.getElementById('qty-PINEAPPLE').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/orange.jpeg" alt="ORANGE">
+        <h3>ORANGE</h3>
+        <p>GHS 75</p>
+        <input type="number" min="1" value="1" id="qty-ORANGE">
+        <button onclick="addToCart('ORANGE', 75, document.getElementById('qty-ORANGE').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/wheat.jpeg" alt="WHEAT">
+        <h3>WHEAT</h3>
+        <p>GHS 65</p>
+        <input type="number" min="1" value="1" id="qty-WHEAT">
+        <button onclick="addToCart('WHEAT', 65, document.getElementById('qty-WHEAT').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/MIX.jpeg" alt="MIXED FRUITS">
+        <h3>MIXED FRUITS</h3>
+        <p>GHS 250</p>
+        <input type="number" min="1" value="1" id="qty-MIXED FRUITS">
+        <button onclick="addToCart('MIXED FRUITS', 250, document.getElementById('qty-MIXED FRUITS').value)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="picz/plantian.jpeg" alt="PLANTIAN">
+        <h3>PLANTIAN</h3>
+        <p>GHS 70</p>
+        <input type="number" min="1" value="1" id="qty-PLANTIAN">
+        <button onclick="addToCart('PLANTIAN', 70, document.getElementById('qty-PLANTIAN').value)">Add to Cart</button>
+    </div>
+</div>
+</body>
+<footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="picz/logo.png" alt="Nnorbae fie Logo" />
+        <p>Farming Smarter, Selling Faster</p>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Phone: 030 030 3030</p>
+        <p>Email: <a href="mailto:nnorbaesupportteam@gmail.com">nnorbaesupportteam@gmail.com</a></p>
+        <p>
+            <ul>
+                <li><a href="https://www.facebook.com/share/1XvuSEcqm2/?mibextid=wwXIfr">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            <strong>NNORBAE FIE</strong></p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Nnorbae fie. All rights reserved.</p>
+    </div>
+  </footer>
+</html>
